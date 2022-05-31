@@ -1,0 +1,38 @@
+h1 {
+    color: green;
+    margin-left: 5px;
+    text-align: center;
+}
+
+body {
+    background-color: black;
+    color: hsl(0, 0%, 100%);
+    font-size: 142%;
+}
+
+form {
+    border: 2px solid white;
+    margin: 5px;
+    padding: 10px;
+    text-align: center;
+}
+
+.center_line {
+    display: block;
+    border: 2px solid wheat;
+}
+
+.submit_inline {
+    display: block;
+    margin: 5px;
+    margin-top: 18px;
+    margin-left: 48%;
+}
+
+.buttons input:focus {
+    border: 2px solid gainsboro;
+    background-color: yellow;
+    text-shadow: 10px;
+    background: white;
+    color: black;
+}
