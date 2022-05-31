@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="{{url_for('static',filename = 'css/home.css')}}">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <header>
+        <h1 class="Center_aline">Vornoi Project Deployment part</h1>
+    </header>
+    <section class="form_section">
+        <form action="/suggect" , method="post">
+            <div class="border one">
+
+                <input type="radio" name=song_1 id="first" value={{song_i0}} class="center_line">
+                <label for="first">{{song_0}}</label>
+
+            </div>
+
+            <div class="border two">
+
+                <input type="radio" name="song_1" id="second" value={{song_i1}} class="center_line rutvik_jaiswal">
+                <label for="second">{{song_1}}</label>
+
+            </div>
+
+            <div class="border three">
+
+                <input type="radio" name="song_1" id="Third" value={{song_i2}} class="center_line">
+                <label for="Third">{{song_2}}</label>
+
+            </div>
+
+            <div class="border four">
+
+                <input type="radio" name="song_1" id="four" value={{song_i3}} class="center_line">
+                <label for="four">{{song_3}}</label>
+
+            </div>
+
+            <div class="border five">
+                <input type="radio" name="song_1" id="five" value={{song_i4}} class="center_line">
+                <label for="five">{{song_4}}</label>
+
+            </div>
+
+
+            <input type="submit" value="submit" class="submit_inline">
+
+        </form>
+    </section>
+</body>
+
+</html>
